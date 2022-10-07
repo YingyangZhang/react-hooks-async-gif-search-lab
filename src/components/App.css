@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.gif-container{
+    max-width: 250px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.gif-container img{
+    display: block;
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: center;   
+}
+
+.button{
+    margin-left: 20px;
+    border: none;
+    padding: 2px 5px;
+    background-color: green;
+    color: #fff;
+}
